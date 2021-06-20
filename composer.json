@@ -1,0 +1,30 @@
+{
+    "name": "limbo/http",
+    "description": "HTTP implementation for PSR-7 and PSR-17.",
+    "keywords": ["psr-7", "psr-17", "factory", "request", "response", "message", "uri", "stream"],
+    "minimum-stability": "stable",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "dr0n1k",
+            "email": "x.dronov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Limbo\\Http\\": ""
+        },
+        "files": [
+            "http_helper.php"
+        ]
+    },
+    "require": {
+        "php": "^7.4",
+        "psr/http-message": "^1.0.1",
+        "psr/http-factory": "^1.0.1"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
